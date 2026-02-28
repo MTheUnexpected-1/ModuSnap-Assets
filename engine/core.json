@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "name": "webstudio-pro-engine",
+  "baseSchemas": {
+    "instance": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "component": { "type": "string" },
+        "children": { "type": "array" }
+      }
+    },
+    "style": {
+      "type": "object",
+      "properties": {
+        "property": { "type": "string" },
+        "value": { "type": "string" }
+      }
+    }
+  },
+  "breakpoints": [
+    { "id": "base", "label": "Base", "minWidth": 0 },
+    { "id": "desktop", "label": "Desktop", "minWidth": 1280 },
+    { "id": "tablet", "label": "Tablet", "minWidth": 768 },
+    { "id": "mobile", "label": "Mobile", "minWidth": 0, "maxWidth": 767 }
+  ]
+}
