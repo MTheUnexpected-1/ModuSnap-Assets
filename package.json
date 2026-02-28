@@ -1,0 +1,9 @@
+{
+    "name": "modusnap-assets",
+    "version": "1.0.0",
+    "description": "Public registry for ModuSnap assets",
+    "private": true,
+    "scripts": {
+        "dev": "npx serve --cors -p 3009 ."
+    }
+}
