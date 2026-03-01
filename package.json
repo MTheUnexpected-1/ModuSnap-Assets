@@ -4,6 +4,7 @@
     "description": "Public registry for ModuSnap assets",
     "private": true,
     "scripts": {
-        "dev": "npx serve --cors -p 3009 ."
+        "dev": "npx serve --cors -p 3009 .",
+        "builder": "cd webstudio-core/apps/builder && pnpm run dev"
     }
 }
